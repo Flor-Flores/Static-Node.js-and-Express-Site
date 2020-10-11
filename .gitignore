@@ -1,2 +1,9 @@
 # dependencies
 /node_modules
+
+# production
+/mockups
+
+
+# misc
+.DS_Store
