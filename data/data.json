@@ -79,22 +79,6 @@
         "./images/p5-s.png",
         "./images/p5-w.png"
       ]
-    },
-    {
-      "id":5,
-      "project_name":"Blog Blog blog",
-      "description":"a blog where document my javaScript Development journey",
-      "technologies":[
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
-      "live_link":"https://alejflores.github.io/clean-blog/",
-      "github_link":"https://github.com/alejflores/clean-blog",
-      "image_urls":[
-        "./images/p1-s.png",
-        "./images/p1-w.png"
-      ]
     }
   ], 
   "bio" : {
@@ -114,6 +98,10 @@
       "CSS",
       "HTML",
       "javaScript"
-    ]
+    ],
+    "headline" : "This is the headline",
+    "portfolio_description": "This is the portfolio description",
+    "i_am_awesome" : "describe who you are, what you do, and why you are so awesome"
+
   }
 }

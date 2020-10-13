@@ -5,7 +5,7 @@ const { projects, bio } = require('../data/data.json')
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { projects }) 
+  res.render('index', { projects, bio }) 
 }) 
 
 /* GET project page. */
@@ -16,7 +16,9 @@ router.get('/projects/:id', function(req, res, next) {
   if (project) {
     res.render('project', { project, bio })
   } else {
-    res.sendStatus(404)
+    const error = new Error("Page not found!");
+    error.status = 404;
+    next(error) 
   }
 });
 
@@ -25,7 +27,8 @@ router.get('/about', function(req, res, next) {
   res.render('about', { projects, bio })
 });
 
-// 500 error tests
+/* 500 error tests */
+
 // router.use((req, res, next) => {
 //   console.log('this is a 500 error tests')
 //   const err = new Error(' this is a 500 error tests ')
@@ -33,10 +36,9 @@ router.get('/about', function(req, res, next) {
 //   next(err)
 // })
 
-/* Catches 404 errors, and sends it to the next middleware. */
-
+/* Catches any non existing urls. sets them as 404 errors, and sends it to the next middleware. */
 router.use((req, res, next) => {
-  const error = new Error("Page not found!")
+  const error = new Error("Page not found!");
   error.status = 404;
   next(error) 
 }) 
