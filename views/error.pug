@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= error.message
+  h2= error.status
+  h4 
+  a(href="/") ← Back to homepage
+
+  pre= error.stack
+extends layout

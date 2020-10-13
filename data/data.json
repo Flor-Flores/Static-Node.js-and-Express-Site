@@ -1,0 +1,119 @@
+{
+  "projects":[
+    {
+      "id": 0,
+      "project_name":"A Random Quote Generator",
+      "description":"An app to demonstrate DOM manipulation and simple data structures.",
+      "technologies":[
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "live_link":"https://alejflores.github.io/random-quote-generator/",
+      "github_link":"https://github.com/alejflores/random-quote-generator",
+      "image_urls":[
+        "/images/p1-s.png",
+        "/images/p1-w.png"
+      ]
+    },
+    {
+      "id": 1,
+      "project_name":"Pagination",
+      "description":"Pagination functionality when js is enabled",
+      "technologies":[
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "live_link":"https://alejflores.github.io/P-2-Pagination-And-Filtering/",
+      "github_link":"https://github.com/alejflores/P-2-Pagination-And-Filtering",
+      "image_urls":[
+        "/images/p2-s.png",
+        "/images/p2-w.png"
+      ]
+    },
+    {
+      "id":2,
+      "project_name":"Interactive Form",
+      "description":"Form input validation, using \"Progressive Enhancement\" and DOM manipulation. Each form field provides its own error message. Form can not be submitted if any validation errors are present.",
+      "technologies":[
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "live_link":"https://alejflores.github.io/interactive-form/",
+      "github_link":"https://github.com/alejflores/interactive-form",
+      "image_urls":[
+        "./images/p3-s.png",
+        "./images/p3-w.png"
+      ]
+    },
+    {
+      "id":3,
+      "project_name":"OOP Game Show App",
+      "description":"An interactive guessing game using Object Oriented Programing with JavaScript.",
+      "technologies":[
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "live_link":"https://alejflores.github.io/alejflores-OOP-Game-Show-App/",
+      "github_link":"https://github.com/alejflores/alejflores-OOP-Game-Show-App",
+      "image_urls":[
+        "./images/p4-s.png",
+        "./images/p4-w.png"
+      ]
+    },
+    {
+      "id":4,
+      "project_name":"Public API Requests",
+      "description":"A data request is made to RANDOM USER GENERATOR using the fetch API. The users are added to our web app dynamically via javaScript. This web app has added features such as modal view, modal navigation, and a 'live' search bar.",
+      "technologies":[
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "live_link":"https://alejflores.github.io/Public-API-Request/",
+      "github_link":"https://github.com/alejflores/Public-API-Request",
+      "image_urls":[
+        "./images/p5-s.png",
+        "./images/p5-w.png"
+      ]
+    },
+    {
+      "id":5,
+      "project_name":"Blog Blog blog",
+      "description":"a blog where document my javaScript Development journey",
+      "technologies":[
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "live_link":"https://alejflores.github.io/clean-blog/",
+      "github_link":"https://github.com/alejflores/clean-blog",
+      "image_urls":[
+        "./images/p1-s.png",
+        "./images/p1-w.png"
+      ]
+    }
+  ], 
+  "bio" : {
+    "bio" : "javaScript Developer & Visual Artist",
+    "name" : "Alejandro Jimenez",
+    "phone" : "773-503-9856",
+    "email" : "2alejflores2@gmail.com",
+    "linkedIn_link" : "https://www.linkedin.com/in/alejandro-jimenez-flores/",
+    "github_link": "https://github.com/alejflores",
+    "twitter_link": "https://twitter.com/2alejflores2",
+    "elevator_pitch" : "My visual arts background makes me an audacious problem solver, with the utmost attention to detail.",
+    "title" : "Full Stack javaScript Developer",
+    "skills" : [
+      "Express",
+      "Node",
+      "SASS",
+      "CSS",
+      "HTML",
+      "javaScript"
+    ]
+  }
+}
