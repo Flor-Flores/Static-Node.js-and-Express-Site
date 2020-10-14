@@ -82,26 +82,34 @@
     }
   ], 
   "bio" : {
-    "bio" : "javaScript Developer & Visual Artist",
+    "bio" : "javaScript Developer & Conceptual Artist",
     "name" : "Alejandro Jimenez",
     "phone" : "773-503-9856",
     "email" : "2alejflores2@gmail.com",
     "linkedIn_link" : "https://www.linkedin.com/in/alejandro-jimenez-flores/",
     "github_link": "https://github.com/alejflores",
     "twitter_link": "https://twitter.com/2alejflores2",
-    "elevator_pitch" : "My visual arts background makes me an audacious problem solver, with the utmost attention to detail.",
+    "elevator_pitch" : "My visual arts background makes me an audacious problem solver, with the utmost attention to detail. My design sensibility focuses on user friendliness & minimal design.",
     "title" : "Full Stack javaScript Developer",
     "skills" : [
+      "javaScript",
       "Express",
+      "Node",
+      "pug",
+      "MongoDb",
       "Node",
       "SASS",
       "CSS",
       "HTML",
-      "javaScript"
+      "WordPress",
+      "Photoshop",
+      "Illustrator"
+      
     ],
-    "headline" : "This is the headline",
-    "portfolio_description": "This is the portfolio description",
-    "i_am_awesome" : "describe who you are, what you do, and why you are so awesome"
+    "headline" : "Bonjour!",
+    "portfolio_description": "I am a multilingual thinker & problem solver.  My design sensibility focuses on user friendliness & minimal design.  This portfolio showcases how I approach building different web apps with my ever growing skill set.",
+    "i_am_awesome" : "describe who you are, what you do, and why you are so awesome",
+    "page_not_found_image" : "./images/take-me-home.gif"
 
   }
 }

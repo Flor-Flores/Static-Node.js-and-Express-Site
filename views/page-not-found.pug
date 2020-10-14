@@ -1,9 +1,12 @@
 extends layout
 
 block content
-  h1= error.message
-  h2= error.status
-  h3 Woops! it looks like you are looking for something that does not exist!
-    h4 
-      a(href="/") ← Back to homepage
-  pre= error.stack
+  .not-found-div
+    h1= error.message
+    h2= error.status
+    h3 Woops! it looks like you are looking for something that does not exist!
+      h4 
+        a(href="/") ← Back to homepage
+    .take-me-home
+      img(src="/static/images/take-me-home.gif")
+    pre= error.stack

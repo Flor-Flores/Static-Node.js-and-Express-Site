@@ -11,7 +11,6 @@ app.use( '/static', express.static('public') )
 app.use('/', indexRouter)
 
 
-
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })

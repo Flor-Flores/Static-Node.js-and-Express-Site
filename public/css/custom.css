@@ -1,0 +1,81 @@
+body {
+  -webkit-box-shadow: inset 12px 45px 196px -107px rgba(140,140,255,1);
+  -moz-box-shadow: inset 12px 45px 196px -107px rgba(140,140,255,1);
+  box-shadow: inset 12px 45px 196px -107px rgba(140,140,255,1);
+}
+
+.bio-image img{
+  border-radius: 100%;
+  border: none;
+  box-shadow: -53px 53px 66px -52px rgba(249, 61, 255, 0.62);
+}
+
+.portfolio-index{
+  padding-top:2em ;
+}
+.portfolio-intro{
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.name{
+  color:rgb(14, 0, 211) !important;
+}
+.job-title{
+  color:rgb(87, 84, 128) !important;
+}
+
+.portfolio-me {
+  padding: 20px;
+  background: #ffe2e2;
+  color: rgb(14, 0, 211);
+}
+
+.project-thumbnail{
+  border : none;
+  border-radius : 6px;
+  -webkit-box-shadow: 18px 18px 30px -9px rgba(135, 0, 135, 0.36);
+  -moz-box-shadow:    18px 18px 30px -9px rgba(135, 0, 135, 0.36);
+  box-shadow:         18px 18px 30px -9px rgba(135, 0, 135, 0.36);
+  transition: box-shadow 1s ease-in-out;
+}
+
+.project-thumbnail:hover{
+  -webkit-box-shadow: 0px 32px 30px -9px rgba(135, 0, 135, 0.36);
+  -moz-box-shadow:    0px 32px 30px -9px rgba(135, 0, 135, 0.36);
+  box-shadow:         0px 32px 30px -9px rgba(135, 0, 135, 0.36);
+  transition: box-shadow 1s ease-in-out;
+}
+
+.mobile-name{
+
+  background: #ffe2e2;
+  color: rgb(17, 13, 78);
+
+}
+.mobile-name span{
+  padding-left: 1em;
+}
+
+a{
+  color: rgb(0, 0, 255) !important;
+  transition: ease-in-out;
+  transition: ease-in-out .5s;
+
+ }
+
+a:hover{
+ color: rgb(255, 0, 242)!important;
+ transition: ease-in-out .5s;
+}
+
+.button{
+  background-color:   #ffe2e2;
+  transition: ease-in-out .5s;
+
+}
+
+.button:hover{
+  background-color:   rgba(140,140,255,.5);
+  transition: ease-in-out .5s;
+
+}

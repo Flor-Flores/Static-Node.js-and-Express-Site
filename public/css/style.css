@@ -63,10 +63,10 @@ a:hover{
   box-shadow: none !important;
 }
 
-  .portfolio-me p{
+  /* .portfolio-me p{
     font-size: 14px;
     color: #999;
-  }
+  } */
 
   .portfolio-me a{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -147,4 +147,8 @@ a:hover{
 
 .portfolio-bio{
     line-height: 25px;
+}
+
+.not-found-div{
+  padding: 2em;
 }
